@@ -1,0 +1,22 @@
+.container {
+  width: 600px;
+  height: auto;
+  background-color: rgb(255, 249, 249);
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.title {
+  margin: 1rem 0 0 0;
+  font-size: 62px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(rgba(30, 215, 119, 1),
+  rgba(0, 212, 255, 1));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

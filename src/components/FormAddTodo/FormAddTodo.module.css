@@ -1,0 +1,47 @@
+.formAddTodo {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+  
+.newBtn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: .7rem;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  background: rgb(23, 135, 23);
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 24rem;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  box-shadow: rgb(0 0 0 / 35%) 0px 2px 7px;
+  border-radius: 6px;
+  padding: 9px 10px;
+}
+
+.input::placeholder {
+  color: rgb(107, 102, 102);
+  opacity: .5;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.disabled {
+  opacity: .5;
+}
