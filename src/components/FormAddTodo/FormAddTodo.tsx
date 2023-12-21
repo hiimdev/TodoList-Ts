@@ -13,7 +13,6 @@ const FormAddTodo: React.FC = () => {
 
   const hanldeSubmit = async (event: { keyCode: number }): Promise<any> => {
     setTodo({ title: value, status: 'Active' });
-    console.log(value);
 
     if (event.keyCode === 13) {
       setIsPending(true);
